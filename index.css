@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.container_login {
+    background-image: linear-gradient(45deg,
+            rgba(94, 207, 119, 0.7),
+            rgba(51, 142, 164, 0.8)), url(../media/fondo_DetalleProd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container_register-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 500px;
+    width: 1200px;
+    padding: 25px;
+}
+
+.register {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.register form h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.register form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.register form button {
+    padding: 10px 30px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.login form h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.login form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.login form button {
+    padding: 10px 30px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.register form input:hover,
+.register form button:hover,
+.login form input:hover,
+.login form button:hover {
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    transition: 250ms linear;
+    background-color: #e8e9a7;
+}
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
